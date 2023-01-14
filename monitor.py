@@ -29,10 +29,6 @@ async def main():
                  "watts": charger.watts, 
                  "temperature_c": charger.temperature, 
                  "status": charger.status })
-        #info = await api.get_info(charger)
-        #print(f"info: {info}")
-        #for car in info['cars']:
-            #print(f"car id: {car['car_id']} description: {car['description']} make: {car['model_info']['make']} model: {car['model_info']['model']} year: {car['model_info']['year']}")
     for result in results:
         print(result)
 
